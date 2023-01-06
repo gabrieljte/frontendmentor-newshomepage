@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | News homepage</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+<body>
+
+<nav id="site-nav">
+  <img src="images/logo.svg" alt="">
+  <ul class="site-nav-list">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">New</a></li>
+    <li><a href="#">Popular</a></li>
+    <li><a href="#">Trending</a></li>
+    <li><a href="#">Categories</a></li>
+  </ul>
+  <img src="images/icon-menu.svg" class="nav-menu" hidden>
+</nav>
+
+<div class="div-append" hidden>
+  <ul class="menu-mobile-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">New</a></li>
+    <li><a href="#">Popular</a></li>
+    <li><a href="#">Trending</a></li>
+    <li><a href="#">Categories</a></li>
+  </ul>
+</div>
+
+<main class="main-content container">
+
+  <div id="left-main-content">
+    <img src="images/image-web-3-desktop.jpg" id="featured-img">
+
+    <div id="details-section">
+      <h1 id="details-left">The Bright <br> Future of <br> Web 3.0?</h1>
+      <div id="details-right">
+        <p id="details-description">We dive into the next evolution of the web that <br> claims to put the power of the platforms back <br> into the hands of the people. 
+        But is it really <br> fulfilling its promise?</p>
+        <button id="read-more-btn">READ MORE</button>
+      </div>
+    </div>
+  </div>
+
+  <aside class="aside-new-content right-main-content">
+    <h1>New</h1>
+    <ul id="aside-content">
+      <li class="aside-section">
+        <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </li>
+      <li class="aside-section">
+        <h3><a href="#">The Downsides of AI Artistry</a></h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </li>
+      <li class="aside-section">
+        <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </li>
+    </ul>
+    </aside>
+  </div>
+</main>
+
+<footer id="footer-section">
+  <div class="footer-item">
+    <img src="images/image-retro-pcs.jpg" class="item-img">
+    <div class="footer-item-content">
+      <h1>01</h1>
+      <p><a href="#"> Reviving Retro PCs</a></p>
+      <p>What happens when old PCs are given modern upgrades?</p>
+    </div>
+  </div>
+  <div class="footer-item">
+      <img src="images/image-top-laptops.jpg" class="item-img">
+      <div class="footer-item-content">
+        <h1>02</h1>
+        <p><a href="#">Top 10 Laptops of 2022</a></p>
+        <p>Our best picks for various needs and budgets.</p>
+      </div>
+  </div>
+  <div class="footer-item">
+      <img src="images/image-gaming-growth.jpg" class="item-img">
+      <div class="footer-item-content">
+        <h1>03</h1>
+        <p><a href="#">The Growth of Gaming</a></p>
+        <p>How the pandemic has sparked fresh opportunities.</p> 
+      </div>
+</footer>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
